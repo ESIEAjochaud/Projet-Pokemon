@@ -1,5 +1,5 @@
-#ifndef _CPLANT_H
-#define _CPLANT_H
+#ifndef _CPLANT_H_
+#define _CPLANT_H_
 
 #include "CGrass.h"
 

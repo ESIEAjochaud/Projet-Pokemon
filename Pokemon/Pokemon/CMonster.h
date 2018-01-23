@@ -1,5 +1,7 @@
-#ifndef _CMONSTER_H
-#define _CMONSTER_H
+#ifndef _CMONSTER_H_
+#define _CMONSTER_H_
+
+#include "CAttaque.h"
 
 #include <iostream>
 #include <vector>
@@ -14,6 +16,7 @@ protected:
 	short m_vitesse;
 	short m_attaque;
 	short m_attaque_act;
+	std::vector<CAttaque*> attaques;
 	short m_defense;
 	short m_etat;
 	short m_etat_tours;
@@ -43,8 +46,8 @@ public:
 	void setEtatTours(short tours);
 
 	short updateEtat();
-	virtual void attaqueS(CMonster* monstre);
+	virtual void attaqueS(CMonster* monstre) = 0;
 };
 
-#endif // !_CMONSTER_H
+#endif
 

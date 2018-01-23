@@ -1,5 +1,5 @@
-#ifndef _CWATER_H
-#define _CWATER_H
+#ifndef _CWATER_H_
+#define _CWATER_H_
 
 #include "CMonster.h"
 
@@ -20,4 +20,4 @@ public:
 	bool flood();
 };
 
-#endif // !_CWATER_H
+#endif

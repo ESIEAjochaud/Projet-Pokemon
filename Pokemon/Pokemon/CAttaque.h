@@ -1,5 +1,5 @@
-#ifndef _CATTAQUE_H
-#define _CATTAQUE_H
+#ifndef _CATTAQUE_H_
+#define _CATTAQUE_H_
 
 #include <iostream>
 
@@ -30,4 +30,4 @@ public:
 	short degat(CMonster* att, CMonster* def);
 };
 
-#endif // !_CATTAQUE_H
+#endif

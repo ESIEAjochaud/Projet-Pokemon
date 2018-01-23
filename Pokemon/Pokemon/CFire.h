@@ -1,5 +1,5 @@
-#ifndef _CFIRE_H
-#define _CFIRE_H
+#ifndef _CFIRE_H_
+#define _CFIRE_H_
 
 #include "CMonster.h"
 
@@ -12,4 +12,4 @@ public:
 	void burn(CMonster* monstre);
 };
 
-#endif // !_CFIRE_H
+#endif

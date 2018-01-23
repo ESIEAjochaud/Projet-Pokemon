@@ -1,5 +1,5 @@
-#ifndef _CROCK_H
-#define _CROCK_H
+#ifndef _CROCK_H_
+#define _CROCK_H_
 
 #include "CMonster.h"
 
@@ -15,4 +15,4 @@ public:
 	void setCache(bool cache);
 };
 
-#endif // !_CROCK_H
+#endif

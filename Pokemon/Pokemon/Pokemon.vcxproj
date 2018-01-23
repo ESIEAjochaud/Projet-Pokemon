@@ -20,24 +20,30 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CAttaque.cpp" />
+    <ClCompile Include="CDrug.cpp" />
     <ClCompile Include="CElectric.cpp" />
     <ClCompile Include="CFire.cpp" />
     <ClCompile Include="CGrass.cpp" />
     <ClCompile Include="CInsect.cpp" />
     <ClCompile Include="CMonster.cpp" />
+    <ClCompile Include="CObject.cpp" />
     <ClCompile Include="CPlant.cpp" />
+    <ClCompile Include="CPotion.cpp" />
     <ClCompile Include="CRock.cpp" />
     <ClCompile Include="CWater.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CAttaque.h" />
+    <ClInclude Include="CDrug.h" />
     <ClInclude Include="CElectric.h" />
     <ClInclude Include="CFire.h" />
     <ClInclude Include="CGrass.h" />
     <ClInclude Include="CInsect.h" />
     <ClInclude Include="CMonster.h" />
+    <ClInclude Include="CObject.h" />
     <ClInclude Include="CPlant.h" />
+    <ClInclude Include="CPotion.h" />
     <ClInclude Include="CRock.h" />
     <ClInclude Include="CWater.h" />
   </ItemGroup>

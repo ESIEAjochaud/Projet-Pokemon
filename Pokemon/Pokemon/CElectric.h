@@ -1,5 +1,5 @@
-#ifndef _CELECTRIC_H
-#define _CELECTRIC_H
+#ifndef _CELECTRIC_H_
+#define _CELECTRIC_H_
 
 #include "CMonster.h"
 
@@ -17,4 +17,4 @@ public:
 	void setParalysis(float paralysis);
 };
 
-#endif // !_CELECTRIC_H
+#endif

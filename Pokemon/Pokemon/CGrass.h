@@ -1,5 +1,5 @@
-#ifndef _CGRASS_H
-#define _CGRASS_H
+#ifndef _CGRASS_H_
+#define _CGRASS_H_
 
 #include "CMonster.h"
 

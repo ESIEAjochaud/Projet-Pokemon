@@ -1,5 +1,5 @@
-#ifndef _CINSECT_H
-#define _CINSECT_H
+#ifndef _CINSECT_H_
+#define _CINSECT_H_
 
 #include "CGrass.h"
 
