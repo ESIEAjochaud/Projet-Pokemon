@@ -27,6 +27,11 @@ float CAttaque::getPE()
 	return m_pEchec;
 }
 
+bool CAttaque::getCS()
+{
+	return m_cs;
+}
+
 //SETTERS
 
 void CAttaque::setNom(std::string nom)
@@ -52,6 +57,11 @@ void CAttaque::setPA(short pa)
 void CAttaque::setPE(float pe)
 {
 	m_pEchec = pe;
+}
+
+void CAttaque::setCS(bool cs)
+{
+	m_cs = cs;
 }
 
 //METHODES

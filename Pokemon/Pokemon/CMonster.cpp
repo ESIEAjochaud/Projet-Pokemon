@@ -52,6 +52,11 @@ std::vector<short> CMonster::getForce()
 	return m_force;
 }
 
+std::vector<CAttaque*> CMonster::getCS()
+{
+	return m_CS;
+}
+
 //SETTERS
 
 void CMonster::setType(short type)
@@ -97,6 +102,11 @@ void CMonster::setEtat(short etat)
 void CMonster::setEtatTours(short tours)
 {
 	m_etat_tours = tours;
+}
+
+void CMonster::setCS(CAttaque* cs)
+{
+	m_CS = cs;
 }
 
 //METHODES

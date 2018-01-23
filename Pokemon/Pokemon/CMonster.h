@@ -21,7 +21,7 @@ protected:
 	short m_etat;
 	short m_etat_tours;
 	std::vector<short> m_force;
-	std::vector<short> m_faiblesse;
+	std::vector<CAttaque*> m_CS;
 
 public:
 	short getType();
@@ -34,6 +34,7 @@ public:
 	short getEtat();
 	short getEtatTours();
 	std::vector<short> getForce();
+	std::vector<CAttaque*> getCS();
 
 	void setType(short type);
 	void setNom(std::string nom);
@@ -44,9 +45,9 @@ public:
 	void setDefense(short defense);
 	void setEtat(short etat);
 	void setEtatTours(short tours);
+	void setCS(CAttaque* cs);
 
 	short updateEtat();
-	virtual void attaqueS(CMonster* monstre) = 0;
 };
 
 #endif
