@@ -30,9 +30,7 @@
     <ClCompile Include="CPlant.cpp" />
     <ClCompile Include="CPotion.cpp" />
     <ClCompile Include="CRock.cpp" />
-    <ClCompile Include="CTerrain.cpp" />
     <ClCompile Include="CWater.cpp" />
-    <ClCompile Include="CWorld.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -47,12 +45,7 @@
     <ClInclude Include="CPlant.h" />
     <ClInclude Include="CPotion.h" />
     <ClInclude Include="CRock.h" />
-    <ClInclude Include="CTerrain.h" />
     <ClInclude Include="CWater.h" />
-    <ClInclude Include="CWorld.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="player.pkmn" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
