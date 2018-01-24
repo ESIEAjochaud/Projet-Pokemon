@@ -1,5 +1,30 @@
 #include "CMonster.h"
 
+CMonster::CMonster()
+{
+
+}
+
+CMonster::CMonster(int id, short type, std::string nom, short HP, short vit, short att, std::vector<CAttaque*> attaques, short def)
+{
+	m_id = id;
+	m_type = type;
+	m_nom = nom;
+	m_HP = HP;
+	m_vitesse = vit;
+	m_attaque = att;
+	m_attaque_act = att;
+	m_attaques = attaques;
+	m_defense = def;
+	m_etat = 0;
+	m_etat_tours = 0;
+}
+
+CMonster::~CMonster()
+{
+
+}
+
 //GETTERS
 
 short CMonster::getType()

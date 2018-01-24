@@ -6,6 +6,9 @@
 class CInsect :public CGrass
 {
 public:
+	CInsect();
+	~CInsect();
+
 	void poison(CMonster* monstre);
 };
 

@@ -54,6 +54,8 @@
     <ClInclude Include="CWorld.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\..\..\..\Desktop\rdt\poo\PKMN\PKMN\PKMN.vcxproj" />
+    <None Include="..\..\..\..\..\Desktop\rdt\poo\PKMN\PKMN\PKMN.vcxproj.filters" />
     <None Include="player.pkmn" />
     <None Include="terrain.pkmn" />
   </ItemGroup>

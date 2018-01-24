@@ -16,7 +16,7 @@ protected:
 	short m_vitesse;
 	short m_attaque;
 	short m_attaque_act;
-	std::vector<CAttaque*> attaques;
+	std::vector<CAttaque*> m_attaques;
 	short m_defense;
 	short m_etat;
 	short m_etat_tours;
@@ -24,6 +24,11 @@ protected:
 	std::vector<CAttaque*> m_CS;
 
 public:
+	CMonster();
+	CMonster(int id, short type, std::string nom, short HP, short vit, short att, std::vector<CAttaque*> attaques, short def);
+	~CMonster();
+
+	int getId();
 	short getType();
 	std::string getNom();
 	short getHP();
@@ -36,6 +41,7 @@ public:
 	std::vector<short> getForce();
 	std::vector<CAttaque*> getCS();
 
+	void sestId(int id);
 	void setType(short type);
 	void setNom(std::string nom);
 	void setHP(short HP);

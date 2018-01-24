@@ -9,6 +9,8 @@ protected:
 	std::vector<short> m_force = { 2 };
 
 public:
+	CFire();
+	~CFire();
 	void burn(CMonster* monstre);
 };
 

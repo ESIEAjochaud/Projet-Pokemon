@@ -12,6 +12,10 @@ protected:
 	bool paralyze();
 
 public:
+	CElectric();
+	CElectric(float paralysis);
+	~CElectric();
+
 	float getParalysis();
 
 	void setParalysis(float paralysis);

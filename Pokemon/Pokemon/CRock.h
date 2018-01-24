@@ -10,6 +10,10 @@ protected:
 	bool m_cache;
 
 public:
+	CRock();
+	CRock(bool cache);
+	~CRock();
+
 	bool getCache();
 
 	void setCache(bool cache);

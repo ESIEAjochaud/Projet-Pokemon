@@ -114,5 +114,7 @@
   <ItemGroup>
     <None Include="player.pkmn" />
     <None Include="terrain.pkmn" />
+    <None Include="..\..\..\..\..\Desktop\rdt\poo\PKMN\PKMN\PKMN.vcxproj" />
+    <None Include="..\..\..\..\..\Desktop\rdt\poo\PKMN\PKMN\PKMN.vcxproj.filters" />
   </ItemGroup>
 </Project>
