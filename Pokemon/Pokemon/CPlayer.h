@@ -2,6 +2,8 @@
 #define _CPlayer_H
 #include <iostream>
 #include <vector>
+#include <fstream>//ifstream
+#include <string>//getline
 #include "CMonster.h"
 class CPlayer
 {

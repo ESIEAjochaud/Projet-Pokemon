@@ -2,8 +2,31 @@
 
 void CPlayer::read_level_requirement()
 {
-
+	std::string row;
+	std::ifstream File("player.pkmn", std::ios::in);
+	if (File.is_open())
+	{
+		while (getline(File, row))
+		{
+			std::string delimiter = "\t";
+			std::size_t pos = 0;
+			std::string token;
+			while ((pos = row.find(delimiter)) != std::string::npos)
+			{
+				token = row.substr(0, pos);
+				std::cout << "Arguments: " << token << std::endl;
+				row.erase(0, pos + delimiter.length());
+			}
+			std::cout << row << std::endl;
+		}
+		File.close();
+	}
+	else
+	{
+		std::cout << "Impossible d’ouvrir le fichier \n";
+	}
 } //Read from config?
+
 void CPlayer::level_refresh()
 {
 
